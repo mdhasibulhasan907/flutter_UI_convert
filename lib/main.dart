@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_convert/utils/home.dart';
+import 'package:flutter_ui_convert/utils/splash.dart';
+import 'package:flutter_ui_convert/utils/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       
     debugShowCheckedModeBanner: false,
-    home:Home()
+    home: WelcomeScreen()
     
     );
   }

@@ -4,7 +4,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_convert/consts/all_colors.dart';
 import 'package:flutter_ui_convert/consts/all_sizes.dart';
 
+
+
 class AllStyles {
+
+  static final splash=TextStyle(
+  color: AllColors.whiteColor,
+  fontWeight: FontWeight.w700,
+  fontSize: AllSizes.SplashSize,
+  
+  
+
+  );
 
   static final heading=TextStyle(
     color: AllColors.blackColor.withOpacity(0.75),
